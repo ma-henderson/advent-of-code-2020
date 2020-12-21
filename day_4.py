@@ -37,30 +37,20 @@ with open('day_4_inputs.txt', 'r') as f:
             prev_char = char
         counter += 1
     
-    # print(data[:5])
-
-    def req_check(pairs):
-        """Return true if ALL req_fields are in a list of kv_pairs"""
-        for pair in pairs:
-            temp_list = [True for field in req_fields if field in pair]
-            print(temp_list)
-            if all(temp_list):
-                continue
-            else:
-                return False
-        return True
 
 
-
-
-    for elem in data[:3]:
+    for elem in data:
         kv_pairs = elem.split(" ")
         print(kv_pairs)
-        #  OK!  #
+
+        # Just want the keys - seperate them:
+        keys = [segment.split(":")[0] for segment in kv_pairs]
+        print(keys)
+
         # using list comprehension
-        # print([True for field in req_fields if field in pair])
-        # if req_check(kv_pairs):
-        #     accepted_list.append(elem)
-            
+        check = [True if field in keys else False for field in req_fields] 
+        print(check)
+        if all(check):
+            accepted_list.append(kv_pairs)            
         
-    # print((accepted_list[:10]))
+    print(len(accepted_list))
