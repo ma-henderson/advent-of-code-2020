@@ -1,6 +1,8 @@
-some_string = "iyr:2015 ecl:gry"
-split_string = some_string.split(" ")
+import re
+some_string = "#12301f"
+pattern = '^#[a-f0-9]{6}'
 
-for i in split_string:
-    if "iyr" in i:
-        print("success")
+print(re.match(pattern, some_string))
+
+if not True:
+    print('yes')
