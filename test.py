@@ -1,5 +1,5 @@
 import re
-some_string = "#12301f"
+some_string = "#18301f"
 pattern = '^#[a-f0-9]{6}'
 
 print(re.match(pattern, some_string))

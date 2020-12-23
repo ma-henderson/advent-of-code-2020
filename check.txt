@@ -1,0 +1,4 @@
+Below was "approved" but shouldn't have been:
+
+['cid:52', 'ecl:blu', 'iyr:2011', 'pid:027908077', 'hcl:#b6652a', 'hgt:158cm', 'byr:1986']
+{'cid': '52', 'ecl': 'blu', 'iyr': '2011', 'pid': '027908077', 'hcl': '#b6652a', 'hgt': '158cm', 'byr': '1986'}
