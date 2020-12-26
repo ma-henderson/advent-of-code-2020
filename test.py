@@ -1,8 +1,10 @@
-import re
-some_string = "#18301f"
-pattern = '^#[a-f0-9]{6}'
+# l = []
+# l.extend(range(10))
 
-print(re.match(pattern, some_string))
+# print(l)
+# l = l[5:]
+# print(l)
 
-if not True:
-    print('yes')
+# # Truncates it when int()
+# n = 3
+# print(int(n/2))
