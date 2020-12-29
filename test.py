@@ -8,3 +8,7 @@
 # # Truncates it when int()
 # n = 3
 # print(int(n/2))
+
+
+day_6 = 'accddeeffhhijjkkllmmnnoopprrttvvxxyyzz'
+print(day_6.count('J'))
