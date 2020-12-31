@@ -19,9 +19,16 @@
 # in_color = day_7[in_count + 2,]
 # print(in_index, day_7[in_index + 8])
 
+
+# test_dict['key'] = []
+# test_dict['key'].append(123)
+# test_dict['key'] = []
+# print(test_dict)
+
 test_dict = {}
 
-test_dict['key'] = []
-test_dict['key'].append(123)
-test_dict['key'] = []
+inc_color = 'light blue'
+inc_cap = 2
+
+test_dict[f'{inc_color}'] = inc_cap
 print(test_dict)
