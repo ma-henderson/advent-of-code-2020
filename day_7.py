@@ -69,4 +69,24 @@ with open("day_7_inputs.txt", 'r') as f:
 
         num_loc = line.find(',',num_loc) + 2
   
-  print(nodes)
+  # MAJOR step 2)
+  for node in nodes:
+    if any([True for color in nodes[node].keys() if color == "shiny gold"]):
+      starting_nodes.append(node)
+    
+  print(starting_nodes)
+  # Recursive check from starting nodes
+  
+  # Start from each departure
+  for node in starting_nodes:
+    # does each next destination link to another?
+      # True:
+        # append current node to the output
+        # call the fn itself once again
+      # False:
+        # END the recursion (return the node)
+        # append current node to the output
+
+
+  
+    
