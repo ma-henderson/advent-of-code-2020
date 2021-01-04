@@ -10,13 +10,18 @@
 #   print(data)
 
   
-def some_fn():
-  a = 'hello'
-  b = 'world'
-  return a,b
+# def some_fn():
+#   a = 'hello'
+#   b = 'world'
+#   return a,b
 
-s1, s2 = some_fn()
-print(s1, s2)
+# s1, s2 = some_fn()
+# print(s1, s2)
 
-s = some_fn()
-print(type(s))
+# s = some_fn()
+# print(type(s))
+
+l = list(range(3))
+print(l)
+print(l[:1]) # not inclusive
+print(l[1:]) # inclusive

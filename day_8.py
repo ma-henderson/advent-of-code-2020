@@ -1,5 +1,5 @@
 def day8_data():
-  with open('day_8_input.txt', 'r') as f:
+  with open('day_8_inputs.txt', 'r') as f:
     # Set up base dictionary
     lines = f.readlines()
     data = {}
