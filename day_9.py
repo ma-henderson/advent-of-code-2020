@@ -31,3 +31,14 @@ with open('day_9_inputs.txt', 'r') as f:
     rolling.append(int(lines[i+1][:-1])) #[:-1] because python reads '\n' as 1 char
 
   print(i, n)
+
+  ctp = [] # ctp for caterpillar
+  for val in lines:
+    ctp.append(int(val))
+
+    # remove lower-end numbers until below n, while checking
+    while sum(ctp) > n:
+      ctp.pop(0)
+    
+    if sum(ctp) == n:
+      print(max(ctp), min(ctp))
