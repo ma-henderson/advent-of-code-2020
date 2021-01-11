@@ -32,12 +32,17 @@ test_dict = {}
 # test_dict[f'{inc_color}'] = inc_cap
 # print(test_dict)
 
-test_dict['blue'] = {'red': 1}
-test_dict['brown'] = {'green': 1}
-test_dict['black'] = {'yellow': 1}
+# test_dict['blue'] = {'red': 1}
+# test_dict['brown'] = {'green': 1}
+# test_dict['black'] = {'yellow': 1}
 
-for col in test_dict:
-    if any([True for key in test_dict[col].keys() if key == 'red']):
-        print(True, f"for {col}")
-    else:
-        print(False, f"for {col}")
+# for col in test_dict:
+#     if any([True for key in test_dict[col].keys() if key == 'red']):
+#         print(True, f"for {col}")
+#     else:
+#         print(False, f"for {col}")
+
+# l = []
+# l.extend("l"*10)
+# print(l)
+
