@@ -1,0 +1,947 @@
+vibrant green
+plaid teal,dotted maroon,wavy indigo
+plaid teal
+posh aqua
+posh aqua
+drab salmon,mirrored coral
+drab salmon
+posh indigo
+posh indigo
+
+no further connections for:posh indigo
+mirrored coral
+
+no further connections for:mirrored coral
+dotted maroon
+faded chartreuse
+faded chartreuse
+
+no further connections for:faded chartreuse
+wavy indigo
+dim tomato
+dim tomato
+muted cyan
+muted cyan
+
+no further connections for:muted cyan
+faded magenta
+dark orange,light indigo,vibrant salmon,light maroon,dotted coral,wavy lavender
+dark orange
+wavy orange,mirrored gold,dim magenta,muted aqua
+wavy orange
+
+no further connections for:wavy orange
+mirrored gold
+plaid violet
+plaid violet
+
+no further connections for:plaid violet
+dim magenta
+vibrant white
+vibrant white
+
+no further connections for:vibrant white
+muted aqua
+clear crimson,dark salmon,shiny red
+clear crimson
+
+no further connections for:clear crimson
+dark salmon
+
+no further connections for:dark salmon
+shiny red
+
+no further connections for:shiny red
+light indigo
+dim indigo
+dim indigo
+
+no further connections for:dim indigo
+vibrant salmon
+
+no further connections for:vibrant salmon
+light maroon
+light beige,dull white,posh chartreuse,dull tomato
+light beige
+drab indigo,dark indigo
+drab indigo
+striped black
+striped black
+
+no further connections for:striped black
+dark indigo
+
+no further connections for:dark indigo
+dull white
+
+no further connections for:dull white
+posh chartreuse
+
+no further connections for:posh chartreuse
+dull tomato
+striped aqua,shiny plum
+striped aqua
+
+no further connections for:striped aqua
+shiny plum
+shiny fuchsia,dotted tomato,vibrant crimson
+shiny fuchsia
+
+no further connections for:shiny fuchsia
+dotted tomato
+
+no further connections for:dotted tomato
+vibrant crimson
+bright magenta
+bright magenta
+
+no further connections for:bright magenta
+dotted coral
+plaid maroon,bright lime
+plaid maroon
+
+no further connections for:plaid maroon
+bright lime
+
+no further connections for:bright lime
+wavy lavender
+bright indigo,posh green
+bright indigo
+drab orange
+drab orange
+
+no further connections for:drab orange
+posh green
+dotted plum
+dotted plum
+
+no further connections for:dotted plum
+striped cyan
+
+no further connections for:striped cyan
+dark plum
+dim black,muted plum,light plum,light gray,pale black
+dim black
+
+no further connections for:dim black
+muted plum
+
+no further connections for:muted plum
+light plum
+
+no further connections for:light plum
+light gray
+drab brown,dim green
+drab brown
+
+no further connections for:drab brown
+dim green
+
+no further connections for:dim green
+pale black
+
+no further connections for:pale black
+vibrant yellow
+dull gray,striped white,dim silver,vibrant gray,drab olive,dark gray,dark silver,posh crimson
+dull gray
+pale lavender
+pale lavender
+vibrant aqua
+vibrant aqua
+
+no further connections for:vibrant aqua
+striped white
+bright brown,muted yellow,mirrored green,bright cyan,clear teal,dim coral
+bright brown
+bright coral,posh plum,mirrored white,bright cyan,wavy lime,wavy magenta
+bright coral
+
+no further connections for:bright coral
+posh plum
+clear orange,clear coral,plaid green
+clear orange
+shiny violet,striped brown,clear magenta,clear yellow,drab violet
+shiny violet
+
+no further connections for:shiny violet
+striped brown
+dull beige,light lime,faded orange
+dull beige
+
+no further connections for:dull beige
+light lime
+
+no further connections for:light lime
+faded orange
+
+no further connections for:faded orange
+clear magenta
+light violet,plaid bronze,bright white
+light violet
+vibrant teal
+vibrant teal
+faded white
+faded white
+wavy coral
+wavy coral
+
+no further connections for:wavy coral
+plaid bronze
+mirrored crimson
+mirrored crimson
+
+no further connections for:mirrored crimson
+bright white
+
+no further connections for:bright white
+clear yellow
+muted tan,mirrored beige,bright beige
+muted tan
+
+no further connections for:muted tan
+mirrored beige
+light black
+light black
+striped maroon
+striped maroon
+
+no further connections for:striped maroon
+bright beige
+
+no further connections for:bright beige
+drab violet
+
+no further connections for:drab violet
+clear coral
+
+no further connections for:clear coral
+plaid green
+faded fuchsia,drab yellow
+faded fuchsia
+
+no further connections for:faded fuchsia
+drab yellow
+
+no further connections for:drab yellow
+mirrored white
+dark aqua,dotted purple
+dark aqua
+
+no further connections for:dark aqua
+dotted purple
+
+no further connections for:dotted purple
+bright cyan
+mirrored turquoise,drab aqua,faded tan
+mirrored turquoise
+light magenta,drab coral,mirrored black
+light magenta
+dull maroon,muted black
+dull maroon
+
+no further connections for:dull maroon
+muted black
+posh turquoise
+posh turquoise
+
+no further connections for:posh turquoise
+drab coral
+drab maroon
+drab maroon
+light blue
+light blue
+
+no further connections for:light blue
+mirrored black
+pale purple
+pale purple
+
+no further connections for:pale purple
+drab aqua
+wavy fuchsia
+wavy fuchsia
+
+no further connections for:wavy fuchsia
+faded tan
+dim violet
+dim violet
+dotted indigo,posh tan,striped olive,vibrant turquoise
+dotted indigo
+
+no further connections for:dotted indigo
+posh tan
+
+no further connections for:posh tan
+striped olive
+
+no further connections for:striped olive
+vibrant turquoise
+shiny maroon
+shiny maroon
+
+no further connections for:shiny maroon
+wavy lime
+shiny brown,mirrored violet,drab red,light purple
+shiny brown
+dotted orange,drab green,plaid plum,dark tan
+dotted orange
+dull gold
+dull gold
+dull salmon
+dull salmon
+
+no further connections for:dull salmon
+drab green
+mirrored purple
+mirrored purple
+dull red
+dull red
+clear maroon
+clear maroon
+
+no further connections for:clear maroon
+plaid plum
+dark fuchsia,dim plum
+dark fuchsia
+
+no further connections for:dark fuchsia
+dim plum
+striped beige,dim olive,dim gray,faded gray
+striped beige
+pale beige,dim white
+pale beige
+bright yellow,dull bronze
+bright yellow
+drab magenta,muted fuchsia
+drab magenta
+
+no further connections for:drab magenta
+muted fuchsia
+
+no further connections for:muted fuchsia
+dull bronze
+
+no further connections for:dull bronze
+dim white
+striped plum
+striped plum
+
+no further connections for:striped plum
+dim olive
+
+no further connections for:dim olive
+dim gray
+
+no further connections for:dim gray
+faded gray
+plaid gray
+plaid gray
+
+no further connections for:plaid gray
+dark tan
+
+no further connections for:dark tan
+mirrored violet
+
+no further connections for:mirrored violet
+drab red
+dim maroon,wavy chartreuse,vibrant beige,dull green
+dim maroon
+striped orange,shiny gray,plaid orange,dark gold
+striped orange
+dotted lime,shiny gray,vibrant coral
+dotted lime
+
+no further connections for:dotted lime
+shiny gray
+muted green,dull silver
+muted green
+
+no further connections for:muted green
+dull silver
+
+no further connections for:dull silver
+vibrant coral
+bright salmon,muted gray,plaid yellow,clear lime,plaid magenta
+bright salmon
+
+no further connections for:bright salmon
+muted gray
+
+no further connections for:muted gray
+plaid yellow
+wavy beige
+wavy beige
+posh lime,plaid tan,faded tomato,dim lime,faded purple,mirrored red
+posh lime
+
+no further connections for:posh lime
+plaid tan
+posh orange,clear violet,dark black
+posh orange
+
+no further connections for:posh orange
+clear violet
+mirrored magenta,dark crimson
+mirrored magenta
+
+no further connections for:mirrored magenta
+dark crimson
+shiny crimson
+shiny crimson
+
+no further connections for:shiny crimson
+dark black
+
+no further connections for:dark black
+faded tomato
+dull crimson,pale turquoise
+dull crimson
+wavy plum
+wavy plum
+
+no further connections for:wavy plum
+pale turquoise
+light yellow
+light yellow
+light chartreuse
+light chartreuse
+
+no further connections for:light chartreuse
+dim lime
+dotted yellow,striped lime
+dotted yellow
+
+no further connections for:dotted yellow
+striped lime
+
+no further connections for:striped lime
+faded purple
+dotted cyan,pale yellow
+dotted cyan
+
+no further connections for:dotted cyan
+pale yellow
+plaid fuchsia
+plaid fuchsia
+
+no further connections for:plaid fuchsia
+mirrored red
+
+no further connections for:mirrored red
+clear lime
+
+no further connections for:clear lime
+plaid magenta
+light bronze
+light bronze
+
+no further connections for:light bronze
+shiny gray
+
+no further connections for:shiny gray
+plaid orange
+dim fuchsia
+dim fuchsia
+
+no further connections for:dim fuchsia
+dark gold
+light orange
+light orange
+dim tan,wavy salmon
+dim tan
+
+no further connections for:dim tan
+wavy salmon
+
+no further connections for:wavy salmon
+wavy chartreuse
+bright black
+bright black
+
+no further connections for:bright black
+vibrant beige
+dull magenta,dull blue
+dull magenta
+dim aqua,clear black,bright green
+dim aqua
+
+no further connections for:dim aqua
+clear black
+vibrant lime
+vibrant lime
+
+no further connections for:vibrant lime
+bright green
+
+no further connections for:bright green
+dull blue
+
+no further connections for:dull blue
+dull green
+dim yellow,posh red,drab crimson
+dim yellow
+
+no further connections for:dim yellow
+posh red
+
+no further connections for:posh red
+drab crimson
+
+no further connections for:drab crimson
+light purple
+
+no further connections for:light purple
+wavy magenta
+posh blue,light cyan
+posh blue
+
+no further connections for:posh blue
+light cyan
+
+no further connections for:light cyan
+muted yellow
+plaid cyan,dark bronze
+plaid cyan
+light fuchsia
+light fuchsia
+
+no further connections for:light fuchsia
+dark bronze
+plaid lime,dotted tan
+plaid lime
+striped indigo,shiny bronze,drab silver
+striped indigo
+
+no further connections for:striped indigo
+shiny bronze
+mirrored aqua
+mirrored aqua
+
+no further connections for:mirrored aqua
+drab silver
+bright silver,vibrant blue
+bright silver
+wavy olive
+wavy olive
+
+no further connections for:wavy olive
+vibrant blue
+
+no further connections for:vibrant blue
+dotted tan
+
+no further connections for:dotted tan
+mirrored green
+muted teal,shiny salmon,vibrant black
+muted teal
+striped lavender
+striped lavender
+mirrored bronze,mirrored brown
+mirrored bronze
+
+no further connections for:mirrored bronze
+mirrored brown
+dull lavender
+dull lavender
+bright blue,dim bronze,dull yellow
+bright blue
+
+no further connections for:bright blue
+dim bronze
+
+no further connections for:dim bronze
+dull yellow
+posh gold
+posh gold
+drab tomato
+drab tomato
+
+no further connections for:drab tomato
+shiny salmon
+
+no further connections for:shiny salmon
+vibrant black
+drab black,dull violet,light red
+drab black
+dim gold,dim salmon,dark chartreuse
+dim gold
+dark lavender,dotted brown,shiny yellow,wavy purple,clear plum
+dark lavender
+light brown,muted brown,light teal,dark gray
+light brown
+dark white
+dark white
+
+no further connections for:dark white
+muted brown
+striped green,muted silver
+striped green
+dark blue
+dark blue
+
+no further connections for:dark blue
+muted silver
+
+no further connections for:muted silver
+light teal
+
+no further connections for:light teal
+dark gray
+
+no further connections for:dark gray
+dotted brown
+
+no further connections for:dotted brown
+shiny yellow
+dotted aqua,drab white
+dotted aqua
+
+no further connections for:dotted aqua
+drab white
+dim crimson,dull tan,mirrored gray,bright teal
+dim crimson
+mirrored indigo
+mirrored indigo
+bright olive
+bright olive
+
+no further connections for:bright olive
+dull tan
+wavy aqua,striped magenta
+wavy aqua
+
+no further connections for:wavy aqua
+striped magenta
+
+no further connections for:striped magenta
+mirrored gray
+
+no further connections for:mirrored gray
+bright teal
+
+no further connections for:bright teal
+wavy purple
+
+no further connections for:wavy purple
+clear plum
+
+no further connections for:clear plum
+dim salmon
+pale lime,faded silver
+pale lime
+
+no further connections for:pale lime
+faded silver
+
+no further connections for:faded silver
+dark chartreuse
+pale gray
+pale gray
+vibrant red,muted indigo,pale magenta
+vibrant red
+pale silver,pale brown
+pale silver
+
+no further connections for:pale silver
+pale brown
+
+no further connections for:pale brown
+muted indigo
+light green
+light green
+
+no further connections for:light green
+pale magenta
+
+no further connections for:pale magenta
+dull violet
+shiny black,pale aqua
+shiny black
+
+no further connections for:shiny black
+pale aqua
+
+no further connections for:pale aqua
+light red
+
+no further connections for:light red
+bright cyan
+
+no further connections for:bright cyan
+clear teal
+drab gold,shiny indigo,vibrant gray
+drab gold
+
+no further connections for:drab gold
+shiny indigo
+posh purple,vibrant orange
+posh purple
+
+no further connections for:posh purple
+vibrant orange
+
+no further connections for:vibrant orange
+vibrant gray
+pale orange
+pale orange
+
+no further connections for:pale orange
+dim coral
+drab blue,vibrant tomato
+drab blue
+dark beige
+dark beige
+wavy teal
+wavy teal
+
+no further connections for:wavy teal
+vibrant tomato
+
+no further connections for:vibrant tomato
+dim silver
+striped yellow,vibrant tan
+striped yellow
+wavy maroon
+wavy maroon
+muted beige,dull chartreuse,dim lavender
+muted beige
+wavy crimson,muted lime,bright gold
+wavy crimson
+muted coral
+muted coral
+
+no further connections for:muted coral
+muted lime
+dull olive
+dull olive
+
+no further connections for:dull olive
+bright gold
+
+no further connections for:bright gold
+dull chartreuse
+mirrored maroon,posh violet,bright gray,vibrant lavender
+mirrored maroon
+
+no further connections for:mirrored maroon
+posh violet
+
+no further connections for:posh violet
+bright gray
+faded black,dull coral
+faded black
+
+no further connections for:faded black
+dull coral
+
+no further connections for:dull coral
+vibrant lavender
+
+no further connections for:vibrant lavender
+dim lavender
+
+no further connections for:dim lavender
+vibrant tan
+dotted fuchsia
+dotted fuchsia
+
+no further connections for:dotted fuchsia
+vibrant gray
+
+no further connections for:vibrant gray
+drab olive
+
+no further connections for:drab olive
+dark gray
+
+no further connections for:dark gray
+dark silver
+faded brown,posh crimson
+faded brown
+wavy tan
+wavy tan
+
+no further connections for:wavy tan
+posh crimson
+wavy brown,pale chartreuse
+wavy brown
+dark lime,dotted bronze
+dark lime
+
+no further connections for:dark lime
+dotted bronze
+shiny white
+shiny white
+
+no further connections for:shiny white
+pale chartreuse
+faded turquoise,plaid crimson
+faded turquoise
+vibrant plum,plaid aqua
+vibrant plum
+
+no further connections for:vibrant plum
+plaid aqua
+
+no further connections for:plaid aqua
+plaid crimson
+shiny coral,pale plum
+shiny coral
+striped salmon,wavy violet
+striped salmon
+
+no further connections for:striped salmon
+wavy violet
+
+no further connections for:wavy violet
+pale plum
+striped coral
+striped coral
+
+no further connections for:striped coral
+posh crimson
+
+no further connections for:posh crimson
+dark yellow
+drab turquoise,dotted crimson
+drab turquoise
+
+no further connections for:drab turquoise
+dotted crimson
+posh maroon,faded green
+posh maroon
+mirrored chartreuse
+mirrored chartreuse
+light tan,plaid red,shiny cyan,pale crimson
+light tan
+plaid lavender
+plaid lavender
+
+no further connections for:plaid lavender
+plaid red
+clear lavender,pale violet
+clear lavender
+
+no further connections for:clear lavender
+pale violet
+shiny tomato
+shiny tomato
+
+no further connections for:shiny tomato
+shiny cyan
+
+no further connections for:shiny cyan
+pale crimson
+pale blue,pale green
+pale blue
+
+no further connections for:pale blue
+pale green
+
+no further connections for:pale green
+faded green
+dark teal
+dark teal
+striped tomato
+striped tomato
+
+no further connections for:striped tomato
+dark silver
+
+no further connections for:dark silver
+dark tomato
+
+no further connections for:dark tomato
+dim chartreuse
+posh tomato,plaid brown
+posh tomato
+dim purple,shiny silver,dull brown
+dim purple
+faded lime
+faded lime
+
+no further connections for:faded lime
+shiny silver
+mirrored yellow,muted red,vibrant chartreuse,dim beige
+mirrored yellow
+drab gray
+drab gray
+
+no further connections for:drab gray
+muted red
+
+no further connections for:muted red
+vibrant chartreuse
+
+no further connections for:vibrant chartreuse
+dim beige
+drab chartreuse,clear bronze
+drab chartreuse
+
+no further connections for:drab chartreuse
+clear bronze
+
+no further connections for:clear bronze
+dull brown
+dotted chartreuse,faded indigo
+dotted chartreuse
+
+no further connections for:dotted chartreuse
+faded indigo
+mirrored salmon
+mirrored salmon
+
+no further connections for:mirrored salmon
+plaid brown
+dark magenta,mirrored teal,clear gold
+dark magenta
+pale fuchsia
+pale fuchsia
+
+no further connections for:pale fuchsia
+mirrored teal
+shiny magenta,pale tan
+shiny magenta
+
+no further connections for:shiny magenta
+pale tan
+clear olive
+clear olive
+
+no further connections for:clear olive
+clear gold
+drab tan,faded cyan,dull fuchsia,vibrant maroon
+drab tan
+wavy gray,wavy tomato
+wavy gray
+
+no further connections for:wavy gray
+wavy tomato
+muted magenta,shiny green
+muted magenta
+
+no further connections for:muted magenta
+shiny green
+
+no further connections for:shiny green
+faded cyan
+striped silver
+striped silver
+
+no further connections for:striped silver
+dull fuchsia
+dim turquoise,muted orange
+dim turquoise
+wavy white
+wavy white
+
+no further connections for:wavy white
+muted orange
+
+no further connections for:muted orange
+vibrant maroon
+dotted olive
+dotted olive
+
+no further connections for:dotted olive

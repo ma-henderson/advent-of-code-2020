@@ -5,6 +5,34 @@ Second is to identify all 'starting nodes' AKA where a shiny gold bag is mention
 Third is then seeing how many CONNECTIONS between shiny gold bag and UNIQUE other bags
 """
 
+# Major Step 3) Recursive check from starting nodes
+debug_log = []
+def all_paths(nodes, starting_locs, output=[]):  
+  # Start from each departure
+  for loc in starting_locs:
+    # append current node to the output
+    output.append(loc)
+    connections = [node for node in nodes if loc in nodes[node].keys() and node not in output]
+    # print(loc, connections)
+    debug_log.append(loc)
+    debug_log.append(connections)
+    # Does each next destination link to another?
+    if len(connections) > 0: 
+      # True:
+      # to avoid eternal loops: 
+      # starting_locs.remove(loc)
+
+      # call the fn itself once again
+      output = all_paths(nodes, connections, output)
+    else:
+      # print("no further connections for:", loc)
+      debug_log.append("no further connections for:"+loc)
+      # False:
+      # END the recursion (return the node)
+
+  return output
+
+
 print("\n")
 with open("day_7_inputs.txt", 'r') as f:
   nodes = {}
@@ -38,15 +66,15 @@ with open("day_7_inputs.txt", 'r') as f:
       inc_color_end = inc_color_temp.find('bag') - 1
       inc_color = inc_color_temp[:inc_color_end]
       # 4) Instantiate this node-inc connection as a dict
-      print(node_color, inc_color, inc_cap)
+      # print(node_color, inc_color, inc_cap)
       try:
         nodes[node_color][inc_color] = inc_cap
-      except KeyError:
+      except KeyError: # doesn't already exist in nodes
         nodes[node_color] = {}
         nodes[node_color][inc_color] = inc_cap
     
 
-    # Connection (with commas -> no 'and' to look out for)
+    # Connection (with commas, no 'and' to look out for)
     elif line.count(',') > 0:
       # 1) Node Color
       node_color = line[:line.find('bag')-1] # first instance of 'bag'
@@ -60,7 +88,7 @@ with open("day_7_inputs.txt", 'r') as f:
         inc_color_end = inc_color_temp.find('bag') - 1
         inc_color = inc_color_temp[:inc_color_end]
         # 2.3) Register data into nodes
-        print(node_color, inc_color, inc_cap)
+        # print(node_color, inc_color, inc_cap)
         try:
           nodes[node_color][inc_color] = inc_cap
         except KeyError:
@@ -74,19 +102,24 @@ with open("day_7_inputs.txt", 'r') as f:
     if any([True for color in nodes[node].keys() if color == "shiny gold"]):
       starting_nodes.append(node)
     
+  # for node in nodes:
+  #   print("////", node, "////")
+  #   for k,v in nodes[node].items():
+  #     print('\t',k,v)
   print(starting_nodes)
-  # Recursive check from starting nodes
-  
-  # Start from each departure
-  for node in starting_nodes:
-    # does each next destination link to another?
-      # True:
-        # append current node to the output
-        # call the fn itself once again
-      # False:
-        # END the recursion (return the node)
-        # append current node to the output
 
+  results = all_paths(nodes, starting_nodes)
+  # remove duplicates
+  print(results)
+  print(len(results)) #376 not checked for unique
+  print(len(set(results))) #370 correct
 
-  
-    
+  with open('day_7_debug.txt', 'w') as deb:
+    for line in debug_log:
+      if type(line) == list:
+        deb.write(",".join(line))
+        deb.write("\n")
+      else:
+        deb.write(line)
+        deb.write("\n")
+

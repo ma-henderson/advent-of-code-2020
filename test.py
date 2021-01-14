@@ -32,12 +32,34 @@ test_dict = {}
 # test_dict[f'{inc_color}'] = inc_cap
 # print(test_dict)
 
-test_dict['blue'] = {'red': 1}
-test_dict['brown'] = {'green': 1}
-test_dict['black'] = {'yellow': 1}
 
-for col in test_dict:
-    if any([True for key in test_dict[col].keys() if key == 'red']):
-        print(True, f"for {col}")
-    else:
-        print(False, f"for {col}")
+# # SO
+# test_dict['blue'] = {'red': 1}
+# test_dict['brown'] = {'green': 1}
+# test_dict['black'] = {'yellow': 1}
+
+# for col in test_dict:
+#     if any([True for key in test_dict[col].keys() if key == 'red']):
+#         print(True, f"for {col}")
+#     else:
+#         print(False, f"for {col}")
+
+
+# # Test to check if we can instantiate an empty list as a default variable (for recursive)
+# def test_fn(some_var=[]):
+#     some_var.append(1)
+#     some_var.append(2)
+#     return some_var
+
+# resulting = test_fn()
+# print(resulting)
+
+# new_resulting =test_fn(some_var=[0])
+# print(new_resulting)
+
+# test_list = []
+abc = ['a','b','c','c']
+# test_list.append(abc)
+# print(test_list)
+set_it = set(abc)
+print(set_it)
