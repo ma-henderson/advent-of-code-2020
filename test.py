@@ -19,7 +19,7 @@
 # in_color = day_7[in_count + 2,]
 # print(in_index, day_7[in_index + 8])
 
-test_dict = {}
+# test_dict = {}
 
 # test_dict['key'] = []
 # test_dict['key'].append(123)
@@ -58,8 +58,35 @@ test_dict = {}
 # print(new_resulting)
 
 # test_list = []
-abc = ['a','b','c','c']
-# test_list.append(abc)
-# print(test_list)
-set_it = set(abc)
-print(set_it)
+# abc = ['a','b','c','c']
+# # test_list.append(abc)
+# # print(test_list)
+# set_it = set(abc)
+# print(set_it)
+
+# test_dict = {
+#     'a': {
+#         'b': 'c',
+#         'd': 'f'
+#     },
+#     'b': {
+#         '1': 2,
+#         '3': 4
+#     }
+# }
+
+# print(test_dict)
+
+# for k,v in test_dict.items():
+#     for val in v.values():
+#         print(val)
+
+test_l = [0,1,2,3]
+test_l.insert(1,'abc')
+print(test_l)
+
+def ret_1():
+    return 1
+
+test_l.append(ret_1())
+print(test_l)
