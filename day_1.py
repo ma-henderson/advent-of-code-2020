@@ -48,8 +48,8 @@ def threeto2020(values):
   pivots.append(new_values[-1])
   
 
-  Check if the sum is < 2020
-  for i in range(-2,(len(new_values)-2)*-1, -1)
+  # Check if the sum is < 2020
+  for i in range(-2,(len(new_values)-2)*-1, -1):
     if sum(pivots) == 2020:
       return pivots
     elif sum(pivots) < 2020:
