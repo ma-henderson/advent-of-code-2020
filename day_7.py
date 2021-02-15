@@ -4,12 +4,6 @@ First is mapping out all the nodes,
 Second is to identify all 'starting nodes' AKA where a shiny gold bag is mentioned
 Third is then seeing how many CONNECTIONS between shiny gold bag and UNIQUE other bags
 """
-"""
-For Part 2:
-the output of interest is now different, looking to create a series of nested lists
-ie: [2,1,3,[2,3,1,4,[2,1]]] where the number preceding a nested list will be multiplied
-by the sum of its interiors and so on (recursive approach to 'flattening' it)
-"""
 
 
 # Major Step 3) Recursive check from starting nodes
@@ -24,7 +18,7 @@ def all_paths(nodes, starting_locs, output=[]):
     debug_log.append(loc)
     debug_log.append(connections)
     # Does each next destination link to another?
-    if len(connections) > 0: 
+    if len(connections) > 0:
       conn_capacities = [capacity for capacity in nodes[loc].values()]
       debug_log.append(conn_capacities)
       # True:
@@ -136,10 +130,10 @@ with open("day_7_inputs.txt", 'r') as f:
 
         num_loc = line.find(',',num_loc) + 2
   
-  # MAJOR step 2)
-  for node in nodes:
-    if any([True for color in nodes[node].keys() if color == "shiny gold"]):
-      starting_nodes.append(node)
+  # Part 1)
+  # for node in nodes:
+  #   if any([True for color in nodes[node].keys() if color == "shiny gold"]):
+  #     starting_nodes.append(node)
     
   # results = all_paths(nodes, starting_nodes)
   # remove duplicates
@@ -147,29 +141,31 @@ with open("day_7_inputs.txt", 'r') as f:
   # print(len(results)) #376 not checked for unique
   # print(len(set(results))) #370 correct
 
-  def algo_b(loc, output=[]):
-    debug_log.append(loc)
-
-    try:
-      sub_nodes = [node for node in nodes[loc].keys()] 
-      sub_node_caps = [val for val in nodes[loc].values()]
-      debug_log.append(sub_nodes)
-      debug_log.append(sub_node_caps)
-    except KeyError:
-      sub_nodes = []
-    if len(sub_nodes) > 0:
-      for n in sub_nodes:
-        output.append(int(nodes[loc][n]))
-        temp = algo_b(n)
-      
-        output.append(temp)
-    debug_log.append(output)
-    return output
-
-  results_b = algo_b('shiny gold')
-  print(results_b)
-
-  with open('day_7_debug.txt', 'r') as dbug:
-    for i in debug_log:
-      dbug.writelines(str(i))
+  # Part 2)
+  # 'global': nodes dictionary
+  # inputs: name
+  # outputs: sum
+  def algo_c(name='shiny gold', the_sum=0):
+    # Create list of subnodes' names (address) 
+    sub_nodes = [node for node in nodes[name].keys()]
+    # For each subnode in {nodes}:
+    print(sub_nodes)
+    for n in sub_nodes:
+      print(name, n)
+      # multiply its relevant qty by . . .
+      # the sum of its recursive subnodes
+      if n in nodes.keys():
+        print(n, 'YES in nodes.keys()')
+        print('adding', nodes[name][n], 'to sum and going deeper...')
+        the_sum += int(nodes[name][n]) + int(nodes[name][n]) * algo_c(name=n)
+      else:
+        print(n, 'NOT in nodes.keys() adding', nodes[name][n], 'going to NEXT loop')
+        the_sum += int(nodes[name][n])
+    # return the sum
+    print('returning sum of', the_sum, 'going UP a level...')
+    return the_sum
+  print(algo_c())
   
+  #864 TOO LOW
+  #557281663702534220544 too high
+  #29547 correct, passing in the_sum per iteration was wrong
