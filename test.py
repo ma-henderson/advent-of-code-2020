@@ -46,3 +46,12 @@ test_dict = {}
 # l.extend("l"*10)
 # print(l)
 
+some =['a','b','c']
+
+i=0 
+for l in some:
+  print(l)
+  some[i] = 'a'
+  i+=1
+
+print(some)
